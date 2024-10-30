@@ -1,0 +1,13 @@
+2024-10-03 21:10:05,997 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-10-03 21:14:49,773 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-10-03 21:15:50,050 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-10-03 21:18:40,251 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-10-03 21:31:03,496 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-10-03 21:31:53,227 [Worker-9: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: APITESTING:API:0.0.1-SNAPSHOT @ C:\Users\abrar\eclipse-workspace\API\pom.xml.
+2024-10-03 21:31:53,227 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: APITESTING:API:0.0.1-SNAPSHOT @ C:\Users\abrar\eclipse-workspace\API\pom.xml.
+2024-10-03 21:31:53,485 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for GIVECENTRAL1:GIVECENTRAL1:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+2024-10-03 21:31:53,485 [Worker-4: Updating Maven Dependencies] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for GIVECENTRAL1:GIVECENTRAL1:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+2024-10-03 21:31:55,040 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\abrar\eclipse-workspace\API\src\main\resources
+2024-10-03 21:31:55,052 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\abrar\eclipse-workspace\API\src\test\resources
+2024-10-03 21:31:56,302 [Worker-7: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: GIVECENTRAL1:GIVECENTRAL1:0.0.1-SNAPSHOT @ C:\Users\abrar\eclipse-workspace\GIVECENTRAL1\pom.xml.
+2024-10-03 21:31:59,945 [Worker-7: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/bouncycastle/bcprov-jdk15on/1.64/bcprov-jdk15on-1.64.jar

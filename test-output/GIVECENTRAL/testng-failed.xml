@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [GIVECENTRAL]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="GC_15(failed)">
+    <classes>
+      <class name="GC.GCSW.COMMUNICATION_FILE">
+        <methods>
+          <include name="Communicationfile"/>
+        </methods>
+      </class> <!-- GC.GCSW.COMMUNICATION_FILE -->
+      <class name="GC.GCSW.CREATE_PLADGE">
+        <methods>
+          <include name="CreatePladge"/>
+        </methods>
+      </class> <!-- GC.GCSW.CREATE_PLADGE -->
+      <class name="GC.GCSW.MAKE_GUEST_PAYMENT">
+        <methods>
+          <include name="MakeGuestPayment"/>
+        </methods>
+      </class> <!-- GC.GCSW.MAKE_GUEST_PAYMENT -->
+    </classes>
+  </test> <!-- GC_15(failed) -->
+</suite> <!-- Failed suite [GIVECENTRAL] -->
