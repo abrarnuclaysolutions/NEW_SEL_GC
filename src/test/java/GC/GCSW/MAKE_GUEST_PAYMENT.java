@@ -30,17 +30,8 @@ public class MAKE_GUEST_PAYMENT {
 		driver.findElement(By.cssSelector("#password")).sendKeys(pass);// password
 		driver.findElement(By.cssSelector("#logCnf")).click();// login button
 
-		// Click on got it
-//		        Thread.sleep(1300);
-//		        driver.findElement(By.xpath("//button[@class='driver-popover-next-btn']")).click();
-
 		// javascript object
 		JavascriptExecutor js = (JavascriptExecutor) driver;
-		// remove popup
-//		        Thread.sleep(2500);
-//		        WebElement icon = driver.findElement(By.xpath("//a[@class='bottomContentLink' and @id='popup_modal_remind_later']"));
-//		        js.executeScript("arguments[0].scrollIntoView();", icon);
-//		        icon.click();    
 		// click on payment
 		Thread.sleep(2100);
 		WebDriverWait paymentwait = new WebDriverWait(driver, Duration.ofSeconds(5));
