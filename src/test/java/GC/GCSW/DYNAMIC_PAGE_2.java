@@ -106,14 +106,7 @@ public class DYNAMIC_PAGE_2 {
 		WebElement checkElement = driver.findElement(By.xpath("//input[@id='payment_option_one_time']"));
 		js.executeScript("arguments[0].scrollIntoView();", checkElement);
 		checkElement.click();
-		// Thread.sleep(5000);
-		// WebDriverWait waitofselector = new WebDriverWait(driver,
-		// Duration.ofSeconds(10));
-		// WebElement select =
-		// waitofselector.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[@class='select2
-		// select2-container select2-container--default select2-container--focus
-		// select2-container--above']//input[@role='textbox']")));
-		// js.executeScript("arguments[0].scrollIntoView();", select);
+		
 		WebElement sel = driver.findElement(By.xpath("//select[@id='one_time_event']"));
 		Select drop = new Select(sel);
 		drop.selectByVisibleText("11july");
