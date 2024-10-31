@@ -79,7 +79,7 @@ public class ADD_NEW_EVENT {
 		// click on popup
 //	        WebElement popup = driver.findElement(By.cssSelector("div[id='systemMessagesDiv'] button[type='button']"));
 //	        popup.click();  
-//	        driver.close();
+	        driver.close();
 
 	}
 }
