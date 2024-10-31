@@ -30,12 +30,9 @@ public class CREATE_PLADGE {
 		driver.findElement(By.cssSelector("#password")).sendKeys(pass);// password
 		driver.findElement(By.cssSelector("#logCnf")).click();// login button
 
-//   //remove popup
+//      //remove popup
 		JavascriptExecutor js = (JavascriptExecutor) driver;
-//     Thread.sleep(5000);
-//     WebElement icon = driver.findElement(By.xpath("//a[@class='bottomContentLink' and @id='popup_modal_remind_later']"));
-//     js.executeScript("arguments[0].scrollIntoView();", icon);
-//     icon.click();
+		
 		// Click on Donors
 		Thread.sleep(10000);
 		WebDriverWait waitofdonors = new WebDriverWait(driver, Duration.ofSeconds(20));
