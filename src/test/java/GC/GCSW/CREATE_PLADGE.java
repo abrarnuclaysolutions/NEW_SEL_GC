@@ -30,9 +30,6 @@ public class CREATE_PLADGE {
 		driver.findElement(By.cssSelector("#password")).sendKeys(pass);// password
 		driver.findElement(By.cssSelector("#logCnf")).click();// login button
 
-		// Click on got it
-//     Thread.sleep(2000);
-//     driver.findElement(By.xpath("//button[@class='driver-popover-next-btn']")).click();
 //   //remove popup
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 //     Thread.sleep(5000);
