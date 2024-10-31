@@ -28,9 +28,6 @@ public class ADD_NEW_EVENT {
 		driver.findElement(By.cssSelector("#password")).sendKeys(pass);// password
 		driver.findElement(By.cssSelector("#logCnf")).click();// login button
 
-		// Click on got it
-//	        Thread.sleep(2000);
-//	        driver.findElement(By.xpath("//button[@class='driver-popover-next-btn']")).click();
 		// URL of profile
 		driver.get("https://www.givecentral.org/admin/donor-details/profile/abrarkhan");
 		JavascriptExecutor js = (JavascriptExecutor) driver;
