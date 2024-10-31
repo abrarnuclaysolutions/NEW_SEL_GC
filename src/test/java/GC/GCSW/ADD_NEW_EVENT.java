@@ -6,7 +6,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -61,7 +60,7 @@ public class ADD_NEW_EVENT {
 		WebElement dayselect = driver.findElement(By.xpath(
 				"//td[@class=' ui-datepicker-week-end ui-datepicker-days-cell-over  ui-datepicker-current-day ui-datepicker-today' or @class=' ui-datepicker-week-end  ui-datepicker-today' or @class='  ui-datepicker-today' or @class=' ui-datepicker-days-cell-over  ui-datepicker-today' or @class=' ui-datepicker-week-end ui-datepicker-days-cell-over  ui-datepicker-today']"));
 		dayselect.click();// currant date issue
-		Actions std = new Actions(driver);
+//		Actions std = new Actions(driver);
 		// Add payment method
 		WebElement clickpaymethod = driver.findElement(By.cssSelector("#paymentMethod"));
 		Select addpaymethod = new Select(clickpaymethod);

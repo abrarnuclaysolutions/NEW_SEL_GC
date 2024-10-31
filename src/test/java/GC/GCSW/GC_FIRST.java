@@ -6,14 +6,14 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
-import Base_Class.BaseClass;
+//import Base_Class.BaseClass;
 
 public class GC_FIRST {
 	@Test
 	public void GcFirst() throws InterruptedException {
-		BaseClass cred = new BaseClass();
-		String un = cred.username;
-		String pass = cred.pass;
+//		BaseClass cred = new BaseClass();
+//		String un = cred.username;
+//		String pass = cred.pass;
 		ChromeDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 
